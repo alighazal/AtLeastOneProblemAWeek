@@ -1,6 +1,6 @@
 class Solution {
 public:
-
+	
     vector<string> partitions; 
     vector<vector<string>> result; 
 
@@ -15,7 +15,7 @@ public:
         }
         return true;
     }
-
+    // main idea is using backtracing!
     void dfs( string &s ){
 
         if (s.empty()){
